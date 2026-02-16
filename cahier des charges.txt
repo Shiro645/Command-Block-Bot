@@ -1,0 +1,73 @@
+Fonctionnalites du bot : 
+
+Commands : 
+
+    commands staff :
+        /add_whitelist pseudo --> add a pseudonyme to the minecraft server whitelist.json 
+        /remove_whitelist pseudo --> remove a pseudonyme from the minecraft server whitelist.json 
+        /check_whitelist pseudo --> check if a pseudonyme is in the list
+
+        /mute time (inifinite by default)
+        /ban time (infinite by default)
+
+    commands @everyone : 
+        /ip
+        /modpacks
+        /server_status
+
+
+Other : 
+    Send a message in a rule channel with a button Accept and Join which gives the role @Player
+    Tickets system
+    Welcoming message for players that arrive and leave
+    Role reaction message
+
+    A system of Currency where sending messages gives you a random amount of blocks from a random block between cobblestone, gravel, deepslate and in rare case bedrock
+    You can sell this block to obtain emeralds
+    You can buy item with emeralds such as gold/iron/diamond/netherite ingot (each item costing more than the previous one)
+    You can also buy sticks
+    You can craft items with the item you bought such as armor pieces and tools
+    There is also a blockdle that we could import from an api or doing it ourselves if we can't find one. it would give 50 blocks
+    
+    Here is what i was thinking : 
+        you send message --> you receive between 1-6 blocks : 
+            if you receive 6 blocks it has to be cobblestone
+            if you receive 4-5 blocks it can be cobblestone or gravel 
+            if you receive 2-3 blocks it can be cobblestone, gravel or deepslate
+            if you receive 1 block it can be cobblestone, gravel, deepslate and in really rare cases bedrock
+
+        then you can sell this block with /sell, but each block has a different emerald value : 
+            cobblestone has a value of 1 emerald 
+            gravel has a value of 3 emeralds
+            deepslate has a value of 5 emeralds
+            bedrock has a value of 10 emeralds
+
+        with this emerald you can buy sticks and ingots with /market (which makes a gui where you can select the item name and enter the number you want): 
+            4 sticks cost 1 emerald 
+            1 gold ingot costs 5 emeralds
+            1 iron ingot costs 10 emeralds
+            1 netherite ingot costs 100 emeralds
+
+        And with these ressources you can craft items with /craft <item> <material> such as sword, pickaxe, axe, shovel, hoe, helmet, chestplate, leggings, boots
+            sword : 2 ingots and 1 stick 
+            pickaxe : 3 ingots and 2 sticks
+            axe : 3 ingots and 2 sticks 
+            shovel : 1 ingot and 2 sticks
+            hoe : 2 ingots and 2 sticks
+            helmet : 5 ingots
+            chestplate : 8 ingots
+            leggings : 7 ingots
+            boots : 4 ingots
+        Each item comes in a variety of materials which are the same as the ressources you crafted them with (so there would be gold/iron/diamond/netherite tier for each item)
+
+        Admin commands :
+            /add_block <type> <number>
+            /add_emerald <number>
+            /add_item <item> <type>
+            + the remove versions of these
+
+        @everyone commands :
+            /sell (to sell the blocks you have in your inventory)
+            /market (to enter the market)
+            /craft <item> <material> (to craft an item)
+            /inventory (that display a list of the item in your inventory)
