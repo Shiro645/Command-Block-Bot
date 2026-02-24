@@ -71,3 +71,6 @@ Other :
             /market (to enter the market)
             /craft <item> <material> (to craft an item)
             /inventory (that display a list of the item in your inventory)
+
+
+https://github.com/Shiro645/Command-Block-Bot.git
