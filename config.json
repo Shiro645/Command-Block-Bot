@@ -1,40 +1,40 @@
 {
-  "guild_id": 1472051765326118934,
+  "guild_id": 0,
   "verify": {
-    "rules_channel_id": 1472153915628851231,
-    "player_role_id": 1472291269735743560
+    "rules_channel_id": 0,
+    "player_role_id": 0
   },
   "welcome": {
-    "channel_id": 1472152905040793743
+    "channel_id": 0
   },
   "tickets": {
-    "panel_channel_id": 1472320175368966337,
-    "category_id": 1472144971837739078,
-    "support_role_id": 1472290936003236010
+    "panel_channel_id": 0,
+    "category_id": 0,
+    "support_role_id": 0
   },
   "reaction_roles": {
-    "channel_id": 1472153967424176180,
+    "channel_id": 0,
     "map": {
-      "<:cobblestone:1472469247216320587>": 1472301734029299745,
-      "<:sword:1472468972392812717>": 1472301789440114922,
-      "<:boat:1472469183882072115>": 1472301848537993444,
-      "<:enchantingtable:1472472509537452235>": 1472301894805356564,
-      "<a:geargif:1472469088889733225>": 1472302746089820230,
-      "<a:piston:1472472564717719592>": 1472302815224397896,
-      "<a:chest:1472473019287867453>": 1472302956820041945,
-      "<:wheat:1472469364425887806>": 1472303016416641185
+      "<:cobblestone:1472469247216320587>": 0,
+      "<:sword:1472468972392812717>": 0,
+      "<:boat:1472469183882072115>": 0,
+      "<:enchantingtable:1472472509537452235>": 0,
+      "<a:geargif:1472469088889733225>": 0,
+      "<a:piston:1472472564717719592>": 0,
+      "<a:chest:1472473019287867453>": 0,
+      "<:wheat:1472469364425887806>": 0
     },
-    "message_id": 1472495857721933906
+    "message_id": 0
   },
   "minecraft": {
     "whitelist_path": "whitelist.json",
     "server_host": "127.0.0.1",
     "server_port": 25565,
-    "public_ip_text": "Join info: ask in #rules after verification.",
+    "public_ip_text": "IP",
     "modpack_text": "Modpack: TBD (link here)."
   },
   "staff": {
-    "role_id": 1472292042892640359
+    "role_id": 0
   },
   "economy": {
     "cooldown_seconds": 30
