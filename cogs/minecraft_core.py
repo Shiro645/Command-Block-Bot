@@ -8,7 +8,6 @@ from mcstatus import JavaServer
 
 from utils.config import load_config
 
-
 class MinecraftCoreCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot

@@ -31,7 +31,10 @@
     "server_host": "127.0.0.1",
     "server_port": 25565,
     "public_ip_text": "IP",
-    "modpack_text": "Modpack: TBD (link here)."
+    "modpack_text": "Modpack: TBD (link here).",
+    "rcon_host": "minecraft",
+    "rcon_port": 25575,
+    "rcon_password": "CHANGE_ME"
   },
   "staff": {
     "role_id": 0
